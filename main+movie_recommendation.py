@@ -12,14 +12,14 @@ from matplotlib import pyplot as plt
 
 
 num=1
-def assistant_speaks(output):
+def speaks(output):
     global num
     num +=1
 
  #print("Safety Assistant : ", output)
-    toSpeak = gTTS(text=output, lang='en-US', slow=False)
+    tospeak = gTTS(text=output, lang='en-US', slow=False)
     file = str(num)+".mp3"
-    toSpeak.save(file)
+    tospeak.save(file)
     playsound.playsound(file, True)
     os.remove(file)
 
@@ -28,7 +28,7 @@ def music():
 def movie():
     
     
-    assistant_speaks("MOVIES WILL BE SUGGESTED BASED ON THE EMOTION DETECTED")
+    speaks("MOVIES WILL BE SUGGESTED BASED ON THE EMOTION DETECTED")
 
     # parameters for loading data and images
     detection_model_path = 'haarcascade_files/haarcascade_frontalface_default.xml'
@@ -127,42 +127,42 @@ def movie():
                 # IMDb Url for Drama genre of 
                 # movie against emotion Sad 
                 if(em == "sad"):
-                    assistant_speaks('GENRE ALLOCATED IS DRAMA')
+                    speaks('GENRE ALLOCATED IS DRAMA')
                     urlhere = 'http://www.imdb.com/search/title?genres=drama&title_type=feature&sort=moviemeter, asc'
                     
 
                 # IMDb Url for Musical genre of 
                 # movie against emotion Disgust 
                 elif(em == "disgust"):
-                    assistant_speaks('GENRE ALLOCATED IS MUSICAL')
+                    speaks('GENRE ALLOCATED IS MUSICAL')
                     
                     urlhere = 'http://www.imdb.com/search/title?genres=musical&title_type=feature&sort=moviemeter, asc'
 
                 # IMDb Url for Family genre of 
                 # movie against emotion Anger 
                 elif(em == "angry"):
-                    assistant_speaks('GENRE ALLOCATED IS FAMILY')
+                    speaks('GENRE ALLOCATED IS FAMILY')
                     
                     urlhere = 'http://www.imdb.com/search/title?genres=family&title_type=feature&sort=moviemeter, asc'
 
                 # IMDb Url for Thriller genre of 
                 # movie against emotion Anticipation 
                 elif(em == "neutral"):
-                    assistant_speaks('GENRE ALLOCATED IS THRILLER')
+                    speaks('GENRE ALLOCATED IS THRILLER')
                     
                     urlhere = 'http://www.imdb.com/search/title?genres=thriller&title_type=feature&sort=moviemeter, asc'
 
                 # IMDb Url for Sport genre of 
                 # movie against emotion Fear 
                 elif(em == "scared"):
-                    assistant_speaks('GENRE ALLOCATED IS SPORTS')
+                    speaks('GENRE ALLOCATED IS SPORTS')
                     
                     urlhere = 'http://www.imdb.com/search/title?genres=sport&title_type=feature&sort=moviemeter, asc'
 
                 # IMDb Url for Thriller genre of 
                 # movie against emotion Enjoyment 
                 elif(em == "happy"):
-                    assistant_speaks('GENRE ALLOCATED IS THRILLER')
+                    speaks('GENRE ALLOCATED IS THRILLER')
                     
                     urlhere = 'http://www.imdb.com/search/title?genres=thriller&title_type=feature&sort=moviemeter, asc'
 
@@ -172,7 +172,7 @@ def movie():
                 # IMDb Url for Film_noir genre of 
                 # movie against emotion Surprise 
                 elif(em == "surprised"):
-                    assistant_speaks('GENRE ALLOCATED IS FILM NOIR')
+                    speaks('GENRE ALLOCATED IS FILM NOIR')
                     
                     urlhere = 'http://www.imdb.com/search/title?genres=film_noir&title_type=feature&sort=moviemeter, asc'
 
@@ -233,9 +233,9 @@ def movie():
     
 
 
-assistant_speaks("WELCOME TO ENTERTAINMENT RECOMMENDATION SYSTEM BASED ON EMOTION RECOGNITION")
+speaks("WELCOME TO ENTERTAINMENT RECOMMENDATION SYSTEM BASED ON EMOTION RECOGNITION")
 
-assistant_speaks("In the next window,choose what you want us to suggest between MOVIES or MUSIC ")
+speaks("In the next window,choose what you want us to suggest between MOVIES or MUSIC ")
 root = Tk()
 root.geometry("200x200")
 
@@ -249,4 +249,3 @@ R2.pack( anchor = W )
 
 label = Label(root)
 label.pack()
-
