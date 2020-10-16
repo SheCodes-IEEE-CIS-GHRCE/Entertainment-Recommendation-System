@@ -46,6 +46,7 @@ operations take place:
 💻Tkinter<br>
 💻PyQt5<br>
 💻OpenCV<br>
+💻Pyaudio<br>
 
 ## PROJECT IMPLEMENTATION:
 
