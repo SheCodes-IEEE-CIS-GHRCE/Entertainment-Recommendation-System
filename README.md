@@ -51,19 +51,19 @@ operations take place:
 ## PROJECT IMPLEMENTATION:
 
 <b>User has to choose between movies/music:<b>
-<img src="https://github.com/SheCodes-IEEE-CIS-GHRCE/Entertainment-Recommendation-System/blob/main/image%20(1).png"></img>
+<img src="https://github.com/SheCodes-IEEE-CIS-GHRCE/Entertainment-Recommendation-System/blob/main/screenshots/image%20(1).png"></img>
 <br></br>
 
 <b>Process of face+emotion detection:<b>
-<img src="https://github.com/SheCodes-IEEE-CIS-GHRCE/Entertainment-Recommendation-System/blob/main/image%20(2).png"></img>
+<img src="https://github.com/SheCodes-IEEE-CIS-GHRCE/Entertainment-Recommendation-System/blob/main/screenshots/image%20(2).png"></img>
  <br></br>
  
 <b>List of movies suggested from IMDB displayed on the tkinter window:<b>
-<img src="https://github.com/SheCodes-IEEE-CIS-GHRCE/Entertainment-Recommendation-System/blob/main/image%20(3).png"></img>
+<img src="https://github.com/SheCodes-IEEE-CIS-GHRCE/Entertainment-Recommendation-System/blob/main/screenshots/image%20(3).png"></img>
  <br></br>
  
 <b>For music recommendation, the list of songs of the allocated genre will be played for the user. The user can pause,resume,go to next/prev song.<b>
-<img src="https://github.com/SheCodes-IEEE-CIS-GHRCE/Entertainment-Recommendation-System/blob/main/image%20(5).png"></img>
+<img src="https://github.com/SheCodes-IEEE-CIS-GHRCE/Entertainment-Recommendation-System/blob/main/screenshots/image%20(5).png"></img>
  <br></br>
  
 ## DEMO OF THE PROJECT:
