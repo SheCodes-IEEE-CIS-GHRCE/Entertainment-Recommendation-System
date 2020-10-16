@@ -68,7 +68,7 @@ operations take place:
  <br></br>
  
 ## DEMO OF THE PROJECT:
-<a href="https://drive.google.com/file/d/1_ZWGnRcMsms9bYHfSvjEfJnBI4_gT7Us/view?usp=sharing"> 📷 VIDEO LINK </a>
+<a href="https://drive.google.com/file/d/1aBjg37GIlmCA_Ddukeahh3Rgd8grp6DS/view?usp=sharing"> 📷 VIDEO LINK </a>
 <br></br>
 
 
