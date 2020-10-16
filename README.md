@@ -40,13 +40,14 @@ operations take place:
 <br></br>
 
 ## TECHNOLOGY STACK:
-💻Python<br>
-💻Tensorflow<br>
-💻Keras<br>
-💻Tkinter<br>
-💻PyQt5<br>
-💻OpenCV<br>
-💻Pyaudio<br>
+💻 Python<br>
+💻 Matplotlib<br>
+💻 Tensorflow<br>
+💻 Keras<br>
+💻 Tkinter<br>
+💻 PyQt5<br>
+💻 OpenCV<br>
+💻 Pyaudio<br>
 
 ## PROJECT IMPLEMENTATION:
 
