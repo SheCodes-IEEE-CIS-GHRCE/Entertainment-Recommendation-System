@@ -45,6 +45,7 @@ operations take place:
 💻Keras<br>
 💻Tkinter<br>
 💻PyQt5<br>
+💻OpenCV<br>
 
 ## PROJECT IMPLEMENTATION:
 
