@@ -39,6 +39,13 @@ operations take place:
 ✅ Detailed instructions regarding how to retrain the model and make predictions on the video is given in the pdf named: <b>Project_Instructions.pdf<b>
 <br></br>
 
+## TECHNOLOGY STACK:
+💻Python<br>
+💻Tensorflow<br>
+💻Keras<br>
+💻Tkinter<br>
+💻PyQt5<br>
+
 ## PROJECT IMPLEMENTATION:
 
 <b>User has to choose between movies/music:<b>
